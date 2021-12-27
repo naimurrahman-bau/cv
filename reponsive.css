@@ -1,0 +1,63 @@
+@media (max-width: 667px){
+.container{
+	background: tomato;
+}
+.header{
+	height: 210px;
+}
+.header-left{
+	width: 100%;
+	display: block;
+}
+.header-right{
+	width: 100%;
+	display: block;
+}
+}
+@media(max-width: 400px){
+	.container{
+		background: navajowhite;
+	}
+	h2{
+		font-size: 15px;
+	}
+	p{
+		font-size: 10px;
+	}
+	h3{
+		font-size: 15px;
+	}
+	li{
+		font-size: 10px;
+	}
+	.header-left img{
+		width: 50px;
+		height: 50px;
+		display: block;
+		float: none;
+		margin: 0 auto;
+		padding: 0;
+	}
+	h4{
+		font-size: 12px;
+	}
+	.header{
+		height: 230px;
+	}
+	.section-left{
+		float: none;
+		text-align: justify;
+		display: block;
+		width: 100%;
+	}
+	.section-right{
+		float: none;
+		text-align: justify;
+		display: block;
+		width: 100%;
+	}
+	.footer ul li a i{
+		font-size: 20px;
+		padding: 5px;
+	}
+}
